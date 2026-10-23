@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #26352b;
+  background: #faf8f1;
+}
+
+header {
+  padding: 20px;
+  background: #26352b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: #dfe8d8;
+  padding: 90px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.button,
+button {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #a65339;
+  color: white;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+article {
+  background: white;
+  padding: 20px;
+  max-width: 280px;
+  border-radius: 8px;
+}
+
+.ambience {
+  background: #e9e2d2;
+}
+
+.review {
+  background: #dfe8d8;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: grid;
+  gap: 12px;
+}
+
+input,
+select {
+  padding: 12px;
+  font-size: 16px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #26352b;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0 6px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+}
